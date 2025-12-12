@@ -2,7 +2,7 @@
 
 A fun, interactive card game with ninja mascots and animations.
 
-[![Live Demo](https://img.shields.io/badge/demo-online-green)]([https://noobninjadev.github.io/ninja-card-game/)
+[![Live Demo](https://img.shields.io/badge/demo-online-green)](https://noobninjadev.github.io/ninja-card-game/)
 
 ## 📸 Screenshots
 
