@@ -236,6 +236,15 @@ function animateStarToScore(playerId) {
   setTimeout(() => star.remove(), 1000);
 }
 
+document.querySelector('.fullscreen-btn').addEventListener('click', () => {
+  if (!document.fullscreenElement) {
+    document.documentElement.requestFullscreen();
+  } else {
+    document.exitFullscreen();
+  }
+});
+
+
 // -------------------- Round + Judge --------------------
 function updateRound() {
   round++;
