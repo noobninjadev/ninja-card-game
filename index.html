@@ -1,0 +1,55 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cards Against Ninjas</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Theme Toggle -->
+<button id="theme-toggle" aria-label="Toggle light and dark mode">🌙</button>
+
+<h1>Ninjas Against Humanity</h1>
+<h2 id="round-counter">Round: 0</h2>
+<img src="images/ninjamascot300.png" alt="cartoon ninja" class="ninja-logo">
+
+<div id="winner-banner"></div>
+<div id="table-area">
+  <img src="images/ninjacelebrate300.png" class="ninja celebrating-ninja" alt="celebrating ninja">
+  <img src="images/ninjadefeated300.png" class="ninja defeated-ninja" alt="defeated ninja">
+  <div id="played-left"></div>
+  <div id="black-card-area">
+    <div class="black-card">Click "Draw" to start</div>
+  </div>
+  <div id="played-right"></div>
+</div>
+
+<div id="white-card-area">
+  <div id="player-areas">
+    <div id="player1-area" class="player-area">
+      <div class="player-header">
+        <span class="player-name">Player 1</span>
+        <img src="images/ninjastar300.png" class="player-avatar" alt="Player 1 Avatar">
+        <span class="player-score" id="score-player1">0</span>
+      </div>
+      <div class="player-hand-container"></div>
+    </div>
+    <div id="player2-area" class="player-area">
+      
+      <div class="player-header">
+        <span class="player-name">Player 2</span>
+        <img src="images/ninjasword300.png" class="player-avatar" alt="Player 2 Avatar">
+        <span class="player-score" id="score-player2">0</span>
+      </div>
+      <div class="player-hand-container"></div>
+    </div>
+  </div>
+</div>
+
+<button id="draw-btn">Draw Black Card</button>
+<div id="scoreboard"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
